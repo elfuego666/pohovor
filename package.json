@@ -1,8 +1,0 @@
-{
-  "name": "alza-product-scraper-browser",
-  "private": true,
-  "description": "Chrome transport for the PHP Alza product scraper",
-  "engines": { "node": ">=20" },
-  "scripts": { "test": "node --test tests/browser.test.cjs" },
-  "dependencies": { "playwright": "^1.58.0" }
-}
