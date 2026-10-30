@@ -1,0 +1,14 @@
+{
+    "name": "pohovor/alza-product-scraper",
+    "description": "OOP extrakcia detailu produktu z Alza.sk do JSON.",
+    "type": "library",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-dom": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {"psr-4": {"Pohovor\\AlzaScraper\\": "src/"}},
+    "scripts": {"test": "@php tests/run.php"}
+}

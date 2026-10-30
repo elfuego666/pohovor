@@ -50,3 +50,7 @@
 
 # Embedded web-server pid file
 /.web-server-pid
+
+# Chrome transport dependencies and its dedicated browser profile
+/node_modules/
+/.cache/
